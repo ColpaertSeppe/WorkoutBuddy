@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace WorkoutBuddy.Services.Service.TrainingPlans.PutTrainingPlans
 {
-    internal interface IPutTrainingPlansService
+    public interface IPutTrainingPlansService
     {
+        public void PUT();
     }
 }

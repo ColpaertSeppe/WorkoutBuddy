@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace WorkoutBuddy.Services.Service.TrainingPlans.PutTrainingPlans
 {
-    internal class PutTrainingPlansService
+    public class PutTrainingPlansService : IPutTrainingPlansService
     {
+        public void PUT()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

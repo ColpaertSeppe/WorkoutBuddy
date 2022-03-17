@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace WorkoutBuddy.Services.Service.TrainingPlans
 {
-    internal interface ITrainingPlanService
+    public interface ITrainingPlanService
     {
+        public void GET();
+        public void POST();
+        public void DELETE();
+        public void PUT();
     }
 }

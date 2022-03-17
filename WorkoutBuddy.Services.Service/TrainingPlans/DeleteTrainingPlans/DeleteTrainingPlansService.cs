@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace WorkoutBuddy.Services.Service.TrainingPlans.DeleteTrainingPlans
 {
-    internal class DeleteTrainingPlansService
+    internal class DeleteTrainingPlansService : IDeleteTrainingPlansService
     {
+        public void DELETE()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

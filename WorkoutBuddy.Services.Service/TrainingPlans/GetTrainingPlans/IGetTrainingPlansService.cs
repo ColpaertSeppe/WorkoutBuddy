@@ -8,5 +8,6 @@ namespace WorkoutBuddy.Services.Service.TrainingPlans.GetTrainingPlans
 {
     internal interface IGetTrainingPlansService
     {
+        public void GET();
     }
 }

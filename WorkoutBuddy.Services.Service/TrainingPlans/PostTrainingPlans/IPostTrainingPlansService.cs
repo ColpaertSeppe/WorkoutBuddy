@@ -8,5 +8,6 @@ namespace WorkoutBuddy.Services.Service.TrainingPlans.PostTrainingPlans
 {
     internal interface IPostTrainingPlansService
     {
+        public void POST();
     }
 }

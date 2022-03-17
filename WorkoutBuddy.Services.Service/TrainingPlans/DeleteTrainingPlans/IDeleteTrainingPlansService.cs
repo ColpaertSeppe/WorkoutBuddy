@@ -8,5 +8,6 @@ namespace WorkoutBuddy.Services.Service.TrainingPlans.DeleteTrainingPlans
 {
     internal interface IDeleteTrainingPlansService
     {
+        public void DELETE();
     }
 }
